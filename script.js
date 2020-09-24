@@ -8,4 +8,6 @@ $('.toggle-password').on('click', function() {
       input.attr('type', 'password');
     }
   });
+
+  
   

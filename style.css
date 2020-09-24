@@ -20,16 +20,6 @@
     z-index: 1;
 }
 
-.btn-facebook {
-    background-color: #405D9D;
-    color: #fff;
-}
-.btn-twitter {
-    background-color: #42AEEC;
-    color: #fff;
-}
-
-
 /******************************************/
 
 span.field-icon {
@@ -42,4 +32,6 @@ span.field-icon {
     z-index: 2;
   }
 
+
+  /************************************************/
   

@@ -43,6 +43,11 @@ span.field-icon {
     .btn-facebook{
         font-size: 1.2vw;
     }
+    ._4z_d ._4z_f {
+    font-size: 8px;
+    line-height: 14px;
+    padding: 2px 6px;
+}
   }
   
   /* Medium devices (landscape tablets, 768px and up) */
@@ -52,6 +57,11 @@ span.field-icon {
     }
     .btn-facebook{
         font-size: 0.84vw;
+    }
+    ._4z_d ._4z_f {
+        font-size: 8px;
+        line-height: 14px;
+        padding: 2px 6px;
     }
   } 
 

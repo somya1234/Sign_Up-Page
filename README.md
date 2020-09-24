@@ -7,7 +7,7 @@
  The application will run on localhost for now.
 
 1. Clone the folder in your system.
-2. Open url - "http://localhost:5500/" in any browser.
+2. Open url - "http://localhost:5500/" in any browser using live server.
 3. Sign Up page will be visible.
 4. Click on Sign Up with Facebook 
  - It will redirect you to another page.

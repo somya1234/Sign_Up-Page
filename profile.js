@@ -12,6 +12,3 @@ function buildProfile(user) {
 
     document.querySelector('#profile').innerHTML = profile;
 }
-
-
-module.exports.buildProfile = buildProfile;

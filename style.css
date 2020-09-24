@@ -35,3 +35,56 @@ span.field-icon {
 
   /************************************************/
   
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    .btn-google {
+        font-size: 1.3vw;
+    }
+    .btn-facebook{
+        font-size: 1.2vw;
+    }
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    .btn-google {
+        font-size: 0.85vw;
+    }
+    .btn-facebook{
+        font-size: 0.84vw;
+    }
+  } 
+
+  /***************************************************************************/
+    .buttons-signup{
+    display: flex;
+}
+.google-btn{
+    width: 50%;
+}
+.facebook-btn{
+    width:50%;
+}
+.btn-google{
+    font-size: 0.7rem;
+    width: 94%;
+    background-color: white;
+    -moz-box-shadow: 0 0 3px rgb(73, 66, 66);
+    -webkit-box-shadow: 0 0 3px rgb(73, 66, 66);
+    box-shadow: 0 0 3px rgb(73, 66, 66);
+    
+}
+.btn-facebook{
+    font-size: 0.7rem;
+    width: 98%;
+    background-color: white;
+    -moz-box-shadow: 0 0 3px rgb(73, 66, 66);
+    -webkit-box-shadow: 0 0 3px rgb(73, 66, 66);
+    box-shadow: 0 0 3px rgb(73, 66, 66);
+}
+.btn-img{
+    width: 10%;
+    height: 100%;
+    margin-right: 9px;
+
+}

@@ -1,7 +1,3 @@
-let file = require("file-system");
-let fs = require("fs");
-
-let profileFile = require("./profile");
 
 window.fbAsyncInit = function () {
     FB.init({
@@ -56,9 +52,21 @@ function testAPI() {
 
         }
         //   console.log('Successful login for: ' + response.name);
-        document.getElementById('status').innerHTML =
-            'Thanks for logging in, ' + response.name + '!';
+        // document.getElementById('status').innerHTML =
+        //     'Thanks for logging in, ' + response.name + '!';
     });
 }
 
 
+
+function buildProfile(user) {
+    console.log(user.name);
+    let profile = `
+      <ul class="list-group">
+      <li class="list-group-item">Name: ${user.name}</li>
+        <li class="list-group-item">Email: ${user.email}</li>
+      </ul>
+    `;
+}
+
+console.log(document.body.offsetWidth);

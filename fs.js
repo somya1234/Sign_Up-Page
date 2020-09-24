@@ -1,3 +1,8 @@
+let file = require("file-system");
+let fs = require("fs");
+
+let profileFile = require("./profile");
+
 window.fbAsyncInit = function () {
     FB.init({
         appId: '475930683363772',
@@ -57,15 +62,3 @@ function testAPI() {
 }
 
 
-
-function buildProfile(user) {
-    console.log(user.name);
-    let profile = `
-      <ul class="list-group">
-      <li class="list-group-item">Name: ${user.name}</li>
-        <li class="list-group-item">Email: ${user.email}</li>
-      </ul>
-    `;
-
-    document.getElementById('profile').innerHTML = profile;
-}

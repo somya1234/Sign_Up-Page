@@ -45,20 +45,8 @@ function testAPI() {
         if (response && !response.error) {
             console.log(response);
             window.location.href = "http://localhost:5500/home.html";
-              console.log('Successful login for: ' + response.name);
-            buildProfile(response);
+            console.log('Successful login for: ' + response.name);
         }
     });
-}
-
-
-function buildProfile(user) {
-    console.log(user.name);
-    let profile = `
-      <ul class="list-group">
-      <li class="list-group-item">Name: ${user.name}</li>
-        <li class="list-group-item">Email: ${user.email}</li>
-      </ul>
-    `;
 }
 
